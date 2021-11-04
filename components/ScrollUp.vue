@@ -1,0 +1,5 @@
+<template>
+  <div class="scroll-up">
+    <a href="#home"><i class="fa fa-angle-up"></i></a>
+  </div>
+</template>

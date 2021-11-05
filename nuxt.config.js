@@ -93,6 +93,7 @@ export default {
     'assets/bootstrap/css/bootstrap.min.css',
     'assets/css/font-awesome.min.css',
     'assets/css/simple-line-icons.min.css',
+    'assets/css/animate.css',
     'assets/css/style.css'
   ],
 

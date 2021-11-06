@@ -1397,6 +1397,10 @@ a.download:hover {
   background-image: url(../images/ico/nuxt.png);
 }
 
+#home .grid .item-1>div.react::before {
+  background-image: url(../images/ico/react.png);
+}
+
 #home .grid .item-2>div {
   color: white;
   font-size: 1.7em;

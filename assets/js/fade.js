@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 const timeTran = 20;
 const durationFade = 6000;
 
@@ -27,7 +28,7 @@ function fadeOut(el, photo) {
 
 let num = 0;
 let photo = '';
-const timerGlobal = setInterval(function() {
+timerGlobal = setInterval(function() {
   num++;
   if(num > 72)
     num = 10;

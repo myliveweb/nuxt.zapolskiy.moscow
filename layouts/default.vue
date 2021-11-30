@@ -4,5 +4,7 @@
       <div id="status"></div>
     </div>
     <Nuxt />
+    <Footer/>
+    <ScrollUp/>
   </div>
 </template>

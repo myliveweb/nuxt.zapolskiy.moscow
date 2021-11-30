@@ -17,12 +17,12 @@
 
 				<div id="custom-collapse" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="/#home">Начало</a></li>
-						<li><a href="/#services">Услуги</a></li>
-            <li><a href="/#portfolio">Работы</a></li>
-            <li><a href="/#skills">Навыки</a></li>
+						<li><NuxtLink to="/">Начало</NuxtLink></li>
+						<li><NuxtLink to="/">Услуги</NuxtLink></li>
+            <li><NuxtLink to="/">Работы</NuxtLink></li>
+            <li><NuxtLink to="/">Навыки</NuxtLink></li>
 						<li><a href="#template">Шаблоны</a></li>
-						<li><a href="/#contact">Контакты</a></li>
+						<li><NuxtLink to="/">Контакты</NuxtLink></li>
 					</ul>
 				</div>
 

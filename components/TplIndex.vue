@@ -1,5 +1,6 @@
 <template>
   <section id="template" class="pfblock" style="padding: 100px 0 0;">
+    <div id="mi-face" style="display: none;"></div>
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -21,6 +22,9 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
           <ul class="nav-section">
+            <li v-for="section of sections" :key="section.id">
+              <a href="#" @click.prevent="openSection(section)">{{ section.name }}</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -28,14 +32,18 @@
   </section>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  data() {
-    return {
-      item: false
+<script>
+export default {
+  data: () => ({
+    item: {},
+    items: [],
+    itemSection: ''
+  }),
+  props: ['sections'],
+  methods: {
+    openSection(section) {
+      this.$router.push('/template/' + section.url)
     }
-  },
-})
+  }
+}
 </script>

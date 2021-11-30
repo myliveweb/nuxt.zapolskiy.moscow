@@ -1,25 +1,18 @@
 <template>
   <div>
     <TplHeader/>
-    <TplIndex/>
-    <Footer/>
-    <ScrollUp/>
+    <TplIndex :sections='sections' />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import TplHeader from '~/components/TplHeader.vue'
-import TplIndex from '~/components/TplIndex.vue'
-import Footer from '~/components/Footer.vue'
-import ScrollUp from '~/components/ScrollUp.vue'
+
 
 export default Vue.extend({
-  components: {
-    TplHeader,
-    TplIndex,
-    Footer,
-    ScrollUp
+  async asyncData({ $axios }) {
+    const sections = await $axios.$get('https://api.zapolskiy.moscow/v2/?action=sections_list')
+    return {sections}
   },
 })
 </script>

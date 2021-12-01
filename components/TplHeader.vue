@@ -12,7 +12,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" style="font-family: Raleway400, sans-serif;" href="/">Сергей Запольский</a>
+					<NuxtLink class="navbar-brand" style="font-family: Raleway400, sans-serif;" to="/">Сергей Запольский</NuxtLink>
 				</div>
 
 				<div id="custom-collapse" class="collapse navbar-collapse">
@@ -22,7 +22,7 @@
             <li><NuxtLink to="/">Работы</NuxtLink></li>
             <li><NuxtLink to="/">Навыки</NuxtLink></li>
 						<li><a href="#template">Шаблоны</a></li>
-						<li><NuxtLink to="/">Контакты</NuxtLink></li>
+						<li><NuxtLink to="/template/blog/rtr">Контакты</NuxtLink></li>
 					</ul>
 				</div>
 

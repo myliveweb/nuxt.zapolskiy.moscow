@@ -12,7 +12,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" style="font-family: Raleway400, sans-serif;" href="/">Сергей Запольский</a>
+					<NuxtLink class="navbar-brand" style="font-family: Raleway400, sans-serif;" to="/">Сергей Запольский</NuxtLink>
 				</div>
 
 				<div id="custom-collapse" class="collapse navbar-collapse">

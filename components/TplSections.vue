@@ -1,12 +1,11 @@
 <template>
   <section id="template" class="pfblock" style="padding: 100px 0 0;">
-    <div id="home" style="display: none;"></div>
     <div id="mi-face" style="display: none;"></div>
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="pfblock-header wow fadeInUp">
-            <h1 class="pfblock-title">Шаблоны для сайта</h1>
+            <h1 class="pfblock-title">Шаблоны для сайта - {{ section }}</h1>
             <div class="pfblock-line"></div>
             <div class="pfblock-subtitle" style="width: 90%; margin-left: 5%;">
               Закажите сайт на любой CMS с любым из этих шаблонов и сэкономьте деньги, на услугах дизайнера. Также можете скачать шаблоны бесплатно из этой подборки. Я занимаюсь поиском новых и интересных адаптивных шаблонов для сайта, чтобы всегда предоставлять вам и вашему бизнесу возможность идти в ногу со временем.
@@ -39,7 +38,7 @@ export default {
     items: [],
     itemSection: ''
   }),
-  props: ['sections'],
+  props: ['sections', 'section'],
   methods: {
     openSection(section) {
       this.$router.push('/template/' + section.url)

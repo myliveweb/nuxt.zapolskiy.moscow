@@ -24,11 +24,14 @@
                     <div class="grid wow zoomIn">
                         <a href="https://umaumi.com/" target="blank">
                           <figure class="effect-bubba">
+                            <picture>
+                              <source srcset="assets/images/work/umaumi.com.webp" type="image/webp">
                               <img src="assets/images/work/umaumi.com.png" alt="umaumi.com"/>
-                              <figcaption>
-                                  <h2>UMa <span>&</span> <span>UMi</span></h2>
-                                  <p>Сайт под "ключ", сопровождение</p>
-                              </figcaption>
+                            </picture>
+                            <figcaption>
+                                <h2>UMa <span>&</span> <span>UMi</span></h2>
+                                <p>Сайт под "ключ", сопровождение</p>
+                            </figcaption>
                           </figure>
                         </a>
                     </div>
@@ -38,11 +41,14 @@
                     <div class="grid wow zoomIn">
                         <a href="https://naumag.ru/" target="blank">
                           <figure class="effect-bubba">
+                            <picture>
+                              <source srcset="assets/images/work/naumag.ru.webp" type="image/webp">
                               <img src="assets/images/work/naumag.ru.png" alt="naumag.ru"/>
-                              <figcaption>
-                                  <h2>Нау <span>Маг</span></h2>
-                                  <p>Доработки, ремонт, сопровождение</p>
-                              </figcaption>
+                            </picture>
+                            <figcaption>
+                                <h2>Нау <span>Маг</span></h2>
+                                <p>Доработки, ремонт, сопровождение</p>
+                            </figcaption>
                           </figure>
                         </a>
                     </div>
@@ -52,11 +58,14 @@
                     <div class="grid wow zoomIn">
                         <a href="https://reddock.ru/" target="blank">
                           <figure class="effect-bubba">
+                            <picture>
+                              <source srcset="assets/images/work/reddock.ru.webp" type="image/webp">
                               <img src="assets/images/work/reddock.ru.png" alt="reddock.ru"/>
-                              <figcaption>
-                                  <h2>Reddock</h2>
-                                  <p>Редизайн, интеграция, доработки</p>
-                              </figcaption>
+                            </picture>
+                            <figcaption>
+                                <h2>Reddock</h2>
+                                <p>Редизайн, интеграция, доработки</p>
+                            </figcaption>
                           </figure>
                         </a>
                     </div>
@@ -66,11 +75,14 @@
                     <div class="grid wow zoomIn">
                         <a href="https://grand-pyro.ru/" target="blank">
                           <figure class="effect-bubba">
+                            <picture>
+                              <source srcset="assets/images/work/grand-pyro.ru.webp" type="image/webp">
                               <img src="assets/images/work/grand-pyro.ru.png" alt="grand-pyro.ru"/>
-                              <figcaption>
-                                  <h2>Grand <span>Pyro</span></h2>
-                                  <p>Редизайн, интеграция</p>
-                              </figcaption>
+                            </picture>
+                            <figcaption>
+                                <h2>Grand <span>Pyro</span></h2>
+                                <p>Редизайн, интеграция</p>
+                            </figcaption>
                           </figure>
                         </a>
                     </div>
@@ -80,11 +92,14 @@
                     <div class="grid wow zoomIn">
                         <a href="https://zicore.ru/" target="blank">
                           <figure class="effect-bubba">
+                            <picture>
+                              <source srcset="assets/images/work/zicore.ru.webp" type="image/webp">
                               <img src="assets/images/work/zicore.ru.png" alt="zicore.ru"/>
-                              <figcaption>
-                                  <h2><span>Zicore</span></h2>
-                                  <p>Интеграция, доработки, сопровождение</p>
-                              </figcaption>
+                            </picture>
+                            <figcaption>
+                                <h2><span>Zicore</span></h2>
+                                <p>Интеграция, доработки, сопровождение</p>
+                            </figcaption>
                           </figure>
                         </a>
                     </div>
@@ -94,11 +109,14 @@
                     <div class="grid wow zoomIn">
                         <a href="https://tehniksb.ru/" target="blank">
                           <figure class="effect-bubba">
+                            <picture>
+                              <source srcset="assets/images/work/tehniksb.ru.webp" type="image/webp">
                               <img src="assets/images/work/tehniksb.ru.png" alt="tehniksb.ru"/>
-                              <figcaption>
-                                  <h2>ТД <span>Техниксервис</span></h2>
-                                  <p>Редизайн, интеграция, доработки, сопровождение</p>
-                              </figcaption>
+                            </picture>
+                            <figcaption>
+                                <h2>ТД <span>Техниксервис</span></h2>
+                                <p>Редизайн, интеграция, доработки, сопровождение</p>
+                            </figcaption>
                           </figure>
                         </a>
                     </div>

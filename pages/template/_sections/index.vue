@@ -1,7 +1,8 @@
 <template>
   <div>
     <TplHeader/>
-    <TplSections :sections='sections' :section='$route.params.sections' />
+    <TplSections :sections='sections' :section='section' :items='items' />
+    <TplSectionItem :section='section' :templates='items' />
   </div>
 </template>
 
@@ -11,10 +12,16 @@ import getData from '../../../util/getData'
 
 
 export default Vue.extend({
-  async asyncData() {
+  async asyncData($route) {
     const post: {} = { action: 'sections_list' }
-    const sections = await getData(post)
-    return {sections}
+    const sections: [{}] = await getData(post)
+
+    const postTemplatesSection: {} = { action: 'templates_section', url: $route.params.sections, limit: 20, load: [] }
+    const templates: {items: [{}], section: {}} = await getData(postTemplatesSection)
+    const items: [{}] = templates.items
+    const section: {} = templates.section
+
+    return {sections, section, items}
   },
 })
 </script>

@@ -1,0 +1,130 @@
+const portfolio = [
+  {
+    url: 'https://umaumi.com/',
+    name: 'umaumi.com',
+    title: 'UMa <span>&</span> <span>UMi</span>',
+    desc: 'Сайт под ключ, сопровождение',
+  },
+  {
+    url: 'https://naumag.ru/',
+    name: 'naumag.ru',
+    title: 'Нау <span>Маг</span>',
+    desc: 'Доработки, ремонт, сопровождение',
+  },
+  {
+    url: 'https://reddock.ru/',
+    name: 'reddock.ru',
+    title: 'Reddock',
+    desc: 'Редизайн, интеграция, доработки',
+  },
+  {
+    url: 'https://grand-pyro.ru/',
+    name: 'grand-pyro.ru',
+    title: 'Grand <span>Pyro</span>',
+    desc: 'Редизайн, интеграция',
+  },
+  {
+    url: 'https://zicore.ru/',
+    name: 'zicore.ru',
+    title: 'Zicore',
+    desc: 'Интеграция, доработки, сопровождение',
+  },
+  {
+    url: 'https://tehniksb.ru/',
+    name: 'tehniksb.ru',
+    title: 'ТД <span>Техниксервис</span>',
+    desc: 'Редизайн, интеграция, доработки, сопровождение',
+  },
+  {
+    url: 'https://apelsingroup.ru/',
+    name: 'apelsingroup.ru',
+    title: 'Апельсин <span>Group</span>',
+    desc: 'Доработки, ремонт',
+  },
+  {
+    url: 'https://comhouse.ru/',
+    name: 'comhouse.ru',
+    title: 'Com <span>House</span>',
+    desc: 'Редизайн, интеграция, доработки, ремонт, сопровождение',
+  },
+  {
+    url: 'https://www.itkt.ru/',
+    name: 'itkt.ru',
+    title: 'Интеркомплект',
+    desc: 'Доработки, ремонт',
+  },
+  {
+    url: 'http://avsystem24.ru/',
+    name: 'avsystem24.ru',
+    title: 'АВСистема',
+    desc: 'Редизайн, интеграция, доработки, сопровождение',
+  },
+  {
+    url: 'https://rus-sned.ru/',
+    name: 'rus-sned.ru',
+    title: 'Русская <span>Снедь</span>',
+    desc: 'Редизайн, интеграция, доработки',
+  },
+  {
+    url: 'http://www.jouanel-rus.ru/',
+    name: 'jouanel-rus.ru',
+    title: 'Jouanel',
+    desc: 'Доработки, ремонт',
+  },
+  {
+    url: 'http://stallprofil.ru/',
+    name: 'stallprofil.ru',
+    title: 'СтальПрофиль',
+    desc: 'Редизайн, интеграция',
+  },
+  {
+    url: 'https://navkusicvet.ru/',
+    name: 'navkusicvet.ru',
+    title: 'На вкус и цвет',
+    desc: 'Доработки, ремонт',
+  },
+  {
+    url: 'https://www.stanki.ru/',
+    name: 'stanki.ru',
+    title: 'Ассоциация <span>«КАМИ»</span>',
+    desc: 'Сайт под ключ, сопровождение',
+  },
+  {
+    url: 'https://vkuslab.ru/',
+    name: 'vkuslab.ru',
+    title: 'Вкус <span>Лаб</span>',
+    desc: 'Доработки, ремонт',
+  },
+  {
+    url: 'http://albico.ru/',
+    name: 'albico.ru',
+    title: 'Albico',
+    desc: 'Сайт под ключ, сопровождение',
+  },
+  {
+    url: 'http://demid.avdol.tmweb.ru/',
+    name: 'demid.avdol.tmweb.ru',
+    title: 'Демидовская <span>вода</span>',
+    desc: 'Интеграция, доработки, ремонт',
+  },
+  {
+    url: 'https://gamesdealer.ru/',
+    name: 'gamesdealer.ru',
+    title: 'GamesDealer',
+    desc: 'Сайт под ключ, сопровождение',
+  },
+  {
+    url: 'https://master-juvelir.ru/',
+    name: 'master-juvelir.ru',
+    title: 'Ювелирная <span>мастерская</span>',
+    desc: 'Доработки, ремонт',
+  },
+  {
+    url: 'http://xn--80ajsci4a.xn--p1ai/',
+    name: 'xn--80ajsci4a.xn--p1ai',
+    title: 'Мелант',
+    desc: 'Интеграция, доработки, ремонт',
+  },
+]
+
+export default portfolio
